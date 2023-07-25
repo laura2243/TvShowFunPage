@@ -1,0 +1,159 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+	display: flex;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	background-color: black;
+	color: white;
+	align-items: center;
+	height: 10vh;
+	
+}
+
+#hover:hover{
+	background-color: #d7df59;
+	color: black;
+	
+}
+
+#signUpButton:hover{
+	background-color: red;
+	
+}
+
+
+.navigation li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media screen and ( min-width: 768px ) {
+  .navigation {
+    	font-size: 20px;
+  }
+}
+
+.hero-banner {
+	background: black;
+	padding: 20px 25px;
+	color: white;
+	text-align: center;
+	
+}
+#signUpButton {
+	
+	width: 20%;
+	/* height: 13px; */
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#title {
+	margin-top: 0px;
+	font-size: 40px;
+	margin-bottom: 200px;
+	
+}
+
+#title1 {
+	margin-top: 0px;
+	font-size: 40px;
+	
+	
+}
+
+.card {
+	background: black;
+	color: white;
+	padding: 15px 25px;
+	margin-top: 15px;
+	width: 100%;
+	
+}
+
+.global-footer {
+	background: #cdcdcd;
+	padding: 15px 25px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.trivia-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:100vh;
+  	
+}
+
+
+.trivia-card {
+	/* padding: 15px; */
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	
+	
+}
+
+.center-text {
+	text-align: center;
+	
+}
+
+tr:nth-child(even) td{
+
+    background-color: black;
+
+    border: none;
+
+ }
+tr:nth-child(odd) td{
+
+    background-color: gray;
+
+    border: none;
+
+ }
+ td{
+
+    width: 500px;
+
+    border: none;  
+
+}
+
+#scheduleButton{
+	width: 20%;
+	height: 40px;
+	margin-top: 20px;
+	background-color: white;
+	color: black;
+	justify-content: center;
+	font-weight: bold;
+	
+}
+
+
+/* #row {
+	display: flex;
+  }  
+#column {
+	flex: 33.33%;
+	padding: 5px;
+  } */
+
+
+
+
+
